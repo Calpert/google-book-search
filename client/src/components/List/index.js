@@ -5,3 +5,9 @@ export const List = ({children}) => {
         {children}
     </ul>
 }
+export function ListItem ({children}) {
+    return <li>
+        {children}
+    </li>
+}
+
