@@ -1,3 +1,5 @@
+import Book from "../components/Book";
+
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
