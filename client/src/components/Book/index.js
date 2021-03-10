@@ -1,7 +1,7 @@
 import React from "react";
-import Col from "../components/Col";
-import Row from "../components/Row";
-import ListItem from "../components/ListItem";
+import Col from "../Col";
+import Row from "../Row";
+import ListItem from "../List";
 
 function Book({ title, subtitle, authors, link, description, image, Button }) {
     return (

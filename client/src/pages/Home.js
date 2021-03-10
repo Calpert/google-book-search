@@ -53,6 +53,7 @@ class Home extends Component{
         }).then(() => this.getBooks());
       };
     render(){
+      return (
         <Container>
             <Row>
                 <Col>
@@ -103,7 +104,7 @@ class Home extends Component{
             </Row>
             <Footer />
         </Container>
-    }
+      )}
 }
 
 export default Home;

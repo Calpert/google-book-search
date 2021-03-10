@@ -1,6 +1,10 @@
 import React from "react";
-import { Col, Row, Container } from "../components/Grid";
+// import { Col, Row, Container } from "../components/Grid";
 import Jumbotron from "../components/Jumbotron";
+import Col from "../components/Col";
+import Row from "../components/Row";
+import Container from "../components/Container";
+
 function NoResults() {
   return (
     <Container fluid>

@@ -4,8 +4,12 @@ import Card from "../components/Card";
 import Book from "../components/Book";
 import Footer from "../components/Footer";
 import API from "../utils/API";
-import { Col, Row, Container } from "../components/Grid";
-import { List } from "../components/List";
+// import { Col, Row, Container } from "../components/Grid";
+import List from "../components/List";
+import Col from "../components/Col";
+import Row from "../components/Row";
+import Container from "../components/Container";
+
 class Saved extends Component {
   state = {
     books: []

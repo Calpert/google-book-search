@@ -1,13 +1,16 @@
 import React from "react";
 
-export const List = ({children}) => {
-    <ul>
+export default function List ({children}) {
+    return ( <ul>
         {children}
-    </ul>
+    </ul> 
+    )
 }
 export function ListItem ({children}) {
-    return <li>
+    return (<li>
         {children}
     </li>
+    )
 }
+
 
